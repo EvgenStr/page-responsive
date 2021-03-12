@@ -1,0 +1,30 @@
+:root{
+  --color-orange: orange;
+  --color-red: red;
+}
+
+
+.page-header{
+  width: 100%;
+  position: fixed;
+  top:0;
+background-color: aquamarine;
+}
+.head-wrap{
+  max-width: 80%;
+  margin: 20px auto;
+}
+
+.logo > p {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.orange{
+  background-color: var(--color-orange);
+}
+
+.red{
+  background-color: var(--color-red);
+}
