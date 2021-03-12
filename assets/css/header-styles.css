@@ -5,10 +5,12 @@
 
 .page-header {
   width: 100%;
+  height: 80px;
   position: fixed;
   top: 0;
   background-color: aquamarine;
   font-family: sans-serif;
+  border-bottom: 3px solid gray;
 }
 .head-wrap {
   max-width: 70%;
