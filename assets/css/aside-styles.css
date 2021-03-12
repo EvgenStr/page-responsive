@@ -25,14 +25,29 @@
 .right-menu-link + .right-menu-link {
   border-top: 1px solid gray;
 }
-.right-menu-image-link {
-  display: block;
-  width: 100px;
-  /* float: right; */
+
+.menu-image-link {
+  display: flex;
+  width: 100%;
   margin-top: 10px;
+}
+.right-menu-image-link {
+  width: 100px;
   overflow: hidden;
 }
 .image-link {
-  /* display: block; */
   width: 100%;
+}
+.image-description {
+  padding-left: 15px;
+}
+.subscribe{
+  width: 100%;
+  margin-top: 15px;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  padding: 8px 5px;
+
+}
+.subscribe::placeholder{
 }

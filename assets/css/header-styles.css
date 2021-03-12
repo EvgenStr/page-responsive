@@ -10,7 +10,7 @@
   top: 0;
   background-color: aquamarine;
   font-family: sans-serif;
-  border-bottom: 3px solid gray;
+  box-shadow: 0 0 3px 2px grey;
 }
 .head-wrap {
   max-width: 70%;
@@ -22,6 +22,7 @@
 .logo {
   vertical-align: middle;
   user-select: none;
+  flex-shrink: 0;
 }
 .logo > span {
   display: inline-block;
@@ -55,8 +56,9 @@
 }
 
 .head-search {
-  /* display: flex; */
+  width: 17%;
 }
 .head-search input {
+  width: 100%;
   box-sizing: border-box;
 }
