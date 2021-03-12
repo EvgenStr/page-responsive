@@ -8,8 +8,7 @@
   height: 80px;
   position: fixed;
   top: 0;
-  background-color: aquamarine;
-  font-family: sans-serif;
+  background-color: rgb(247,247,247);  font-family: sans-serif;
   box-shadow: 0 0 3px 2px grey;
 }
 .head-wrap {
