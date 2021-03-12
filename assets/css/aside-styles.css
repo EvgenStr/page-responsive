@@ -1,5 +1,19 @@
 .right-side-menu {
+  padding: 5px 8px;
   width: 30%;
   height: 50vh;
   background-color: antiquewhite;
+}
+.right-menu-head {
+  padding: 10px 5px;
+  border: 3px solid #f8b763;
+  box-shadow: 4px 3px 0px 0 #f8b763;
+  text-align: center;
+}
+.right-menu-link {
+  display: block;
+  padding: 5px;
+}
+.right-menu-link + .right-menu-link{
+  border-top: 1px solid gray;
 }
