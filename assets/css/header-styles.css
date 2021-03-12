@@ -8,12 +8,14 @@
   position: fixed;
   top: 0;
   background-color: aquamarine;
+  font-family: sans-serif;
 }
 .head-wrap {
-  max-width: 80%;
+  max-width: 70%;
   margin: 20px auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .logo {
   vertical-align: middle;
@@ -36,8 +38,23 @@
 .logo > span:nth-child(2n + 1) {
   background-color: var(--color-red);
 }
+.nav-list {
+}
+
+.nav-list-item {
+  display: inline-block;
+}
 
 .nav-link {
   text-decoration: none;
   text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.head-search {
+  /* display: flex; */
+}
+.head-search input {
+  box-sizing: border-box;
 }
