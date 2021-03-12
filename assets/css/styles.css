@@ -2,33 +2,33 @@
 @import "./main-styles.css";
 @import "./aside-styles.css";
 
-body{
-  background-color: rgb(247,247,247);
+body {
+  background-color: rgb(247, 247, 247);
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.page-footer{
+.page-footer {
   background-color: #3c3d41;
-  color:  white;
+  color: white;
   padding: 25px 0;
   line-height: 1.5;
   font-size: 20px;
 }
-.footer-container{
+.footer-container {
   display: flex;
   margin: 0 auto;
   width: 70%;
   justify-content: space-between;
 }
-.send-email *{
+.send-email * {
   color: inherit;
 }
 
-@media all and (max-width: 728px){
-  .right-side-menu{
+@media all and (max-width: 728px) {
+  .right-side-menu {
     display: none;
   }
 }
