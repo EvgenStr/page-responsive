@@ -2,7 +2,14 @@
   padding: 5px 8px;
   width: 30%;
   height: 50vh;
-  background-color: antiquewhite;
+}
+.right-menu-item {
+  background-color: white;
+  padding: 15px 10px;
+  box-shadow: 4px 3px 0px 0 #dad6d6;
+}
+.right-menu-item + .right-menu-item {
+  margin-top: 15px;
 }
 .right-menu-head {
   padding: 10px 5px;
@@ -12,8 +19,20 @@
 }
 .right-menu-link {
   display: block;
+  color: black;
   padding: 5px;
 }
-.right-menu-link + .right-menu-link{
+.right-menu-link + .right-menu-link {
   border-top: 1px solid gray;
+}
+.right-menu-image-link {
+  display: block;
+  width: 100px;
+  /* float: right; */
+  margin-top: 10px;
+  overflow: hidden;
+}
+.image-link {
+  /* display: block; */
+  width: 100%;
 }
