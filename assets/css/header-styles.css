@@ -1,14 +1,14 @@
 .page-header {
   width: 100%;
-  /* height: 80px; */
   margin-bottom: 30px;
   padding: 20px 0;
   position: relative;
   top: 0;
-  background-color: var(--background-color);
+  background-color: var(--background-color-white);
   font-family: sans-serif;
-  box-shadow: 0 0 3px 2px grey;
+  box-shadow: 0 0 3px 2px var(--main-color-gray);
 }
+
 .head-container {
   max-width: 1020px;
   margin: 0 auto;
@@ -18,12 +18,12 @@
   padding: 0 15px;
   box-sizing: border-box;
 }
+
 .logo {
-  /* vertical-align: middle; */
   user-select: none;
   flex-shrink: 0;
-  /* justify-self: end; */
 }
+
 .logo > span {
   display: inline-block;
   height: 30px;
@@ -31,7 +31,7 @@
   line-height: 30px;
   border-radius: 50%;
   text-align: center;
-  color: white;
+  color: var(--color-white);
 }
 
 .logo > span:nth-child(2n) {
@@ -41,18 +41,20 @@
 .logo > span:nth-child(2n + 1) {
   background-color: var(--color-red);
 }
+
 .navigation {
   flex-grow: 1;
   text-align: end;
 }
+
 .nav-list {
   text-align: end;
   padding-right: 50px;
 }
+
 .nav-list-item {
   display: inline-block;
   margin-right: 25px;
-  /* font-size: 14px; */
 }
 
 .nav-link {
@@ -60,8 +62,9 @@
   text-transform: uppercase;
   font-weight: bolder;
   font-size: 14px;
-  color: black;
+  color: var(--color-black);
 }
+
 .nav-link:hover {
   color: var(--color-orange);
   transition: 0.5s ease-in-out;
@@ -69,8 +72,8 @@
 
 .head-search {
   width: 18%;
-  /* justify-self: end; */
 }
+
 .head-search-form {
   position: relative;
 }
@@ -101,28 +104,30 @@
 }
 
 .head-search-field:focus {
-  border: 2px solid rgb(158, 156, 156);
+  border: 2px solid var(--main-color-light-gray);
   transition: 0.5s ease-in-out;
 }
+
 .hidden-menu {
   display: none;
   position: relative;
   width: 40px;
   height: 40px;
   margin-left: 20px;
-  background: #ef5a42;
+  background: var(--color-red);
   cursor: pointer;
 }
 
-.hidden-menu span{
+.hidden-menu span {
   display: block;
   position: absolute;
   top: 19px;
   left: 8px;
   right: 8px;
   height: 2px;
-  background: white;
+  background: var(--color-white);
 }
+
 .hidden-menu span::before,
 .hidden-menu span::after {
   content: "";
@@ -131,8 +136,9 @@
   left: 0;
   width: 100%;
   height: 2px;
-  background: white;
+  background: var(--color-white);
 }
+
 .hidden-menu span::before {
   top: -10px;
 }

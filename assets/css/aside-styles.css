@@ -3,11 +3,10 @@
   width: 30%;
   font-size: 13px;
   color: rgb(98, 98, 98);
-
-  /* height: 50vh; */
 }
+
 .right-menu-item {
-  background-color: white;
+  background-color: var(--background-color-white);
   padding: 20px 10px;
   box-shadow: 4px 3px 0px 0 #dad6d6;
 }
