@@ -20,6 +20,7 @@ a {
   text-align: center;
   vertical-align: middle;
 }
+
 .page-footer {
   margin-top: 10px;
   background-color: var(--background-color-gray);
@@ -28,12 +29,14 @@ a {
   line-height: 1.5;
   font-size: 14px;
 }
+
 .footer-container {
   display: flex;
   margin: 0 auto;
   width: 70%;
   justify-content: space-between;
 }
+
 .footer-container .footer-icon {
   color: var(--color-white);
   font-size: 22px;
@@ -42,6 +45,7 @@ a {
 .footer-container > * {
   margin-bottom: 20px;
 }
+
 .send-email * {
   color: inherit;
 }

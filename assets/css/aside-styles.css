@@ -2,69 +2,79 @@
   padding: 5px 0px;
   width: 30%;
   font-size: 13px;
-  color: rgb(98, 98, 98);
+  color: var(--font-color-gray);
 }
 
 .right-menu-item {
   background-color: var(--background-color-white);
   padding: 20px 10px;
-  box-shadow: 4px 3px 0px 0 #dad6d6;
+  box-shadow: 4px 3px 5px 0 var(--shadow-color-light-gray);
 }
+
 .right-menu-item + .right-menu-item {
   margin-top: 15px;
 }
+
 .right-menu-head {
   padding: 10px 5px;
-  border: 3px solid #f8b763;
-  box-shadow: 4px 3px 0px 0 #f8b763;
+  border: 3px solid var(--color-orange);
+  box-shadow: 4px 3px 0px 0 var(--color-orange);
   text-align: center;
   font-size: 18px;
   margin-bottom: 20px;
 }
+
 .right-menu-link {
   display: block;
   padding: 10px 5px;
   color: inherit;
 }
+
 .right-menu-link::before {
   content: ">";
-  color: #dad6d6;
+  color: var(--shadow-color-light-gray);
   margin-right: 10px;
 }
+
 .right-menu-link + .right-menu-link {
-  border-top: 1px solid #dad6d6;
+  border-top: 1px solid var(--shadow-color-light-gray);
 }
 
 .menu-image-link {
   display: flex;
   width: 100%;
-  /* margin-top: 10px; */
-  padding:15px  0;
+  padding: 15px 0;
 }
+
 .right-menu-image-link {
   width: 85px;
   overflow: hidden;
 }
+
 .image-link {
   width: 100%;
 }
+
 .image-description {
   padding-left: 15px;
 }
-.menu-image-link +.menu-image-link{
-  border-top: 1px solid #dad6d6;
+
+.menu-image-link + .menu-image-link {
+  border-top: 1px solid var(--shadow-color-light-gray);
 }
+
 .subscribe {
-  /* display: block; */
   position: relative;
- padding-top:  20px;
+  padding-top: 20px;
 }
+
 .subscribe-field {
   width: 100%;
   box-sizing: border-box;
-  border: 2px solid #EBEBE3;
+  border: 2px solid var(--main-color-light-gray);
   padding: 8px 5px;
 }
+
 .subscribe-field::placeholder {
   padding: 5px;
   font-style: italic;
@@ -73,10 +83,9 @@
 .subscribe-btn {
   position: absolute;
   height: 33px;
-  /* top: 0; */
   right: 0;
   color: var(--color-red);
   border: none;
-background: transparent;
-padding: 0 15px;
+  background: transparent;
+  padding: 0 15px;
 }
