@@ -73,10 +73,9 @@
   box-sizing: border-box;
   border: 2px solid var(--main-color-light-gray);
   padding: 8px 5px;
-
 }
 
-.subscribe-field:focus+.subscribe-btn {
+.subscribe-field:focus + .subscribe-btn {
   background: var(--color-red);
   color: var(--color-white);
 }
