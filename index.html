@@ -42,7 +42,7 @@
       </div>
     </nav>
   </header>
-
+<!-- main -->
   <main class="content-container">
     <section class="main-content">
       <article class="post">
@@ -206,11 +206,13 @@
         </div>
       </article>
     </section>
+<!-- aside -->
     <aside class="right-side-menu">
       <article class="right-menu-item">
         <header class="right-menu-head">Categories</header>
-        <a class="right-menu-link" href="#">Design</a><a class="right-menu-link" href="#">HTML</a><a
-          class="right-menu-link" href="#">Video</a>
+        <a class="right-menu-link" href="#">Design</a>
+        <a class="right-menu-link" href="#">HTML</a>
+        <a class="right-menu-link" href="#">Video</a>
       </article>
       <article class="right-menu-item">
         <header class="right-menu-head">Last posts</header>
@@ -236,14 +238,20 @@
       </article>
       <article class="right-menu-item">
         <header class="right-menu-head">Subscribe</header>
-        <input class="subscribe" type="email" name="email" placeholder="Your Email" />
+        <form class="subscribe">
+          <input class="subscribe-field" type="email" name="email" placeholder="Your Email" />
+          <button class="subscribe-btn" type="submit"> <i class="fa fa-paper-plane-o"></i></button>
+        </form>
       </article>
     </aside>
   </main>
+<!-- footer -->
   <footer class="page-footer">
     <div class="footer-container">
       <div class="my-blog">My blog © 2012</div>
-      <div class="icons">icons</div>
+      <div class="icons"><a href="#" class="footer-icon"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="footer-icon"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="footer-icon"><i class="fa fa-pinterest"></i></a></div>
       <div class="send-email">
         <a href="mailto: abc@example.com">Send Email</a>
       </div>

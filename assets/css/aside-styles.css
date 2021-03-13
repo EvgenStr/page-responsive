@@ -1,11 +1,14 @@
 .right-side-menu {
   padding: 5px 0px;
   width: 30%;
+  font-size: 13px;
+  color: rgb(98, 98, 98);
+
   /* height: 50vh; */
 }
 .right-menu-item {
   background-color: white;
-  padding: 15px 10px;
+  padding: 20px 10px;
   box-shadow: 4px 3px 0px 0 #dad6d6;
 }
 .right-menu-item + .right-menu-item {
@@ -16,23 +19,31 @@
   border: 3px solid #f8b763;
   box-shadow: 4px 3px 0px 0 #f8b763;
   text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 .right-menu-link {
   display: block;
-  color: black;
-  padding: 5px;
+  padding: 10px 5px;
+  color: inherit;
+}
+.right-menu-link::before {
+  content: ">";
+  color: #dad6d6;
+  margin-right: 10px;
 }
 .right-menu-link + .right-menu-link {
-  border-top: 1px solid gray;
+  border-top: 1px solid #dad6d6;
 }
 
 .menu-image-link {
   display: flex;
   width: 100%;
-  margin-top: 10px;
+  /* margin-top: 10px; */
+  padding:15px  0;
 }
 .right-menu-image-link {
-  width: 100px;
+  width: 85px;
   overflow: hidden;
 }
 .image-link {
@@ -41,12 +52,32 @@
 .image-description {
   padding-left: 15px;
 }
+.menu-image-link +.menu-image-link{
+  border-top: 1px solid #dad6d6;
+}
 .subscribe {
+  /* display: block; */
+  position: relative;
+ padding-top:  20px;
+}
+.subscribe-field {
   width: 100%;
-  margin-top: 15px;
   box-sizing: border-box;
-  border: 1px solid gray;
+  border: 2px solid #EBEBE3;
   padding: 8px 5px;
 }
-.subscribe::placeholder {
+.subscribe-field::placeholder {
+  padding: 5px;
+  font-style: italic;
+}
+
+.subscribe-btn {
+  position: absolute;
+  height: 33px;
+  /* top: 0; */
+  right: 0;
+  color: var(--color-red);
+  border: none;
+background: transparent;
+padding: 0 15px;
 }
