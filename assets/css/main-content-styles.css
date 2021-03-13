@@ -54,17 +54,10 @@
   white-space: nowrap;
 }
 
- .fa{
-  font-size: 14px;
-}
-.footer-icon {
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  line-height: 23px;
-  text-align: center;
-  vertical-align: middle;
+
+.post-footer-icon {
   color: var(--color-orange);
   border: 1px solid var(--color-orange);
   border-radius: 50%;
+  font-size: 14px;
 }
