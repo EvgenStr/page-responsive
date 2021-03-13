@@ -1,9 +1,11 @@
 @import "./header-styles.css";
 @import "./main-styles.css";
 @import "./aside-styles.css";
+@import "./vars.css";
+
 
 body {
-  background-color: rgb(247, 247, 247);
+  background-color: var(--background-color);
 }
 
 a {

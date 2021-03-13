@@ -1,11 +1,8 @@
-:root {
-  --color-orange: orange;
-  --color-red: red;
-}
+
 
 .page-header {
   width: 100%;
-  height: 80px;
+  /* height: 80px; */
   position: fixed;
   top: 0;
   background-color: rgb(247, 247, 247);
@@ -13,7 +10,7 @@
   box-shadow: 0 0 3px 2px grey;
 }
 .head-wrap {
-  max-width: 70%;
+  max-width: 1020px;
   margin: 20px auto;
   display: flex;
   justify-content: space-between;
