@@ -3,9 +3,10 @@
 @import "./aside-styles.css";
 @import "./vars.css";
 
-body {
+body * {
   background-color: var(--background-color);
   font-family: sans-serif;
+  transition: .5s ease-in-out;
 }
 
 a {
