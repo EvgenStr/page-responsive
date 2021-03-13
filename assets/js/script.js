@@ -1,8 +1,9 @@
 
 
-var menu = document.querySelector(".hidden-menu")
+var menu = document.querySelector('.navigation')
 
-function toogleMenu(menu){
+function toogleMenu() {
+  menu.classList.toggle('active')
   console.log(menu)
 }
 

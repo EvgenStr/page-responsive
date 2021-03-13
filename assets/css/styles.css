@@ -58,6 +58,30 @@ a {
 
   .navigation {
     display: none;
+    position: absolute;
+    top: 65px;
+    right: 0;
+    left: 0;
+    background-color: var(--background-color-white);
+  }
+
+  .nav-list {
+    padding: 0;
+  }
+
+  .nav-list-item {
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .nav-list-item + .nav-list-item {
+    border-top: 1px solid var(--shadow-color-light-gray);
+  }
+
+  .active {
+    display: block;
   }
 
   .head-search {
@@ -88,6 +112,10 @@ a {
     width: 100%;
     text-align: center;
     margin-bottom: 15px;
+  }
+
+  .navigation {
+    top: 110px;
   }
 
   .head-search {

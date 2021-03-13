@@ -6,7 +6,7 @@
   top: 0;
   background-color: var(--background-color-white);
   font-family: sans-serif;
-  box-shadow: 0 0 3px 2px var(--main-color-gray);
+  box-shadow: 0 0 3px 2px var(--shadow-color-light-gray);
 }
 
 .head-container {
@@ -87,7 +87,7 @@
   color: var(--main-gray-color);
   font-style: italic;
   font-size: 13px;
-  background-color: var(--background-color);
+  background-color: var( --background-color-white);
 }
 
 .search-btn {
