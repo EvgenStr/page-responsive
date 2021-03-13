@@ -3,7 +3,6 @@
 @import "./aside-styles.css";
 @import "./vars.css";
 
-
 body {
   background-color: var(--background-color);
 }
@@ -13,6 +12,7 @@ a {
 }
 
 .page-footer {
+  margin-top: 10px;
   background-color: #3c3d41;
   color: white;
   padding: 25px 0;
@@ -30,11 +30,42 @@ a {
 }
 
 @media all and (max-width: 728px) {
-  .right-side-menu {
+  .head-container {
+    flex-wrap: wrap;
+  }
+
+  .navigation {
     display: none;
+  }
+  .head-search {
+    /* width: 115px; */
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .head-search-form {
   }
   .main-content {
     width: 100%;
     /* padding-right: 15px; */
   }
+  .content-container {
+    flex-direction: column;
+  }
+  .hidden-menu {
+    display: block;
+  }
+  .right-side-menu {
+    width: 100%;
+  }
+}
+@media all and (max-width: 480px) {
+  .logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .head-search {
+    width: 50%;
+justify-content: flex-start;  }
 }
